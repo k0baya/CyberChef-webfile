@@ -22,7 +22,7 @@
 
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
-/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */
 
 /**
  * @author Matt C [matt@artemisbot.uk]
@@ -225,13 +225,6 @@
  * SOFTWARE.
  */
 
-/**!
- * Sortable 1.15.6
- * @author	RubaXa   <trash@rubaxa.org>
- * @author	owenm    <owen23355@gmail.com>
- * @license MIT
- */
-
 //! Copyright (c) JS Foundation and other contributors
 
 //! github.com/moment/moment-timezone
@@ -244,4 +237,4 @@
 
 //! moment.js locale configuration
 
-//! version : 0.5.46
+//! version : 0.6.1
