@@ -323,6 +323,12 @@
  */
 
 /**
+ * @author j83305 [awz22@protonmail.com]
+ * @copyright Crown Copyright 2020
+ * @license Apache-2.0
+ */
+
+/**
  * @author jb30795 [jb30795@proton.me]
  * @copyright Crown Copyright 2024
  * @license Apache-2.0
@@ -737,6 +743,15 @@
  * @author Klaxon [klaxon@veyr.com]
  * @copyright Crown Copyright 2018
  * @license Apache-2.0
+ */
+
+/**
+ * Parity Bit functions.
+ *
+ * @author j83305 [awz22@protonmail.com]
+ * @copyright Crown Copyright 2020
+ * @license Apache-2.0
+ *
  */
 
 /**
