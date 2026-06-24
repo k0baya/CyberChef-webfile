@@ -35,7 +35,8 @@ jobs:
         run: |
           rm -rf ./*
           export REMOTEVERSION=$(wget -qO- https://api.github.com/repos/gchq/CyberChef/tags | gawk -F '["v]' '/name/{print $5;exit}')
-          wget https://github.com/gchq/CyberChef/releases/latest/download/CyberChef_v$REMOTEVERSION.zip -O CyberChef.zip
+          export DOWNLOAD_URL=$(wget -qO- https://api.github.com/repos/gchq/CyberChef/releases/latest | jq -r '.assets[] | select(.name | endswith(".zip") and (contains("source") | not)) | .browser_download_url')
+          wget "$DOWNLOAD_URL" -O CyberChef.zip
           unzip CyberChef.zip
           rm CyberChef.zip
           mv *.html index.html
