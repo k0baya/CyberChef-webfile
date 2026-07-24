@@ -23,6 +23,12 @@
 /*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
 /**
+ * @author Medjedtxm
+ * @copyright Crown Copyright 2025
+ * @license Apache-2.0
+ */
+
+/**
  * @author Tan Zhen Yong [tzy@beyondthesprawl.com]
  * @copyright Crown Copyright 2019
  * @license Apache-2.0
@@ -197,7 +203,22 @@
  */
 
 /**
+ * @author p-leriche [philip.leriche@cantab.net]
+ * @copyright Crown Copyright 2025
+ * @license Apache-2.0
+ */
+
+/**
  * @author r4mos [2k95ljkhg@mozmail.com]
+ * @copyright Crown Copyright 2025
+ * @license Apache-2.0
+ */
+
+/**
+ * Ascon MAC implementation following NIST SP 800-232
+ * Vendor file for CyberChef
+ *
+ * @author Medjedtxm 
  * @copyright Crown Copyright 2025
  * @license Apache-2.0
  */

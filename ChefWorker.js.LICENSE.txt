@@ -15,8 +15,6 @@
 
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
-/*! js-yaml 4.1.1 https://github.com/nodeca/js-yaml @license MIT */
-
 /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE */
 
 /*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
@@ -107,6 +105,12 @@
  */
 
 /**
+ * @author CyberChef
+ * @copyright Crown Copyright 2026
+ * @license Apache-2.0
+ */
+
+/**
  * @author Dachande663 [dachande663@gmail.com]
  * @copyright Crown Copyright 2018
  * @license Apache-2.0
@@ -140,6 +144,12 @@
 /**
  * @author HarelKatz [github.com/HarelKatz]
  * @copyright Crown Copyright 2026
+ * @license Apache-2.0
+ */
+
+/**
+ * @author Imantas Lukenskas [imantas@lukenskas.dev]
+ * @copyright Imantas Lukenskas 2026
  * @license Apache-2.0
  */
 
@@ -573,6 +583,10 @@
 /**
  * @author tomgond [tom.gonda@gmail.com]
  * @copyright Crown Copyright 2024
+ * @license Apache-2.0
+ */
+
+/**
  * @license Apache-2.0
  */
 
