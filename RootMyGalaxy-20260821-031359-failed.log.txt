@@ -1,0 +1,3 @@
+[*] Preparing Shizuku execution
+[-] Shizuku is not running. Start Shizuku with adb or root first.
+[*] Installation failed
