@@ -11247,18 +11247,18 @@ fieldset[disabled][disabled] .has-danger .form-control, fieldset[disabled][disab
     .bmd-form-group.bmd-collapse-inline .collapsing {
       transition-duration: 0.2s;
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
-  .bmd-form-group input::-webkit-input-placeholder {
+  .bmd-form-group .form-control, .bmd-form-group .custom-file-control, .bmd-form-group label, .bmd-form-group input::-webkit-input-placeholder {
     line-height: 1; }
-  .bmd-form-group input::-moz-placeholder {
+  .bmd-form-group .form-control, .bmd-form-group .custom-file-control, .bmd-form-group label, .bmd-form-group input::-moz-placeholder {
     line-height: 1; }
   .bmd-form-group .form-control, .bmd-form-group .custom-file-control,
   .bmd-form-group label,
   .bmd-form-group input::placeholder {
     line-height: 1; }
-  .bmd-form-group input.form-control::-webkit-input-placeholder, .bmd-form-group input.custom-file-control::-webkit-input-placeholder {
+  .bmd-form-group input.form-control, .bmd-form-group input.custom-file-control, .bmd-form-group input.form-control::-webkit-input-placeholder, .bmd-form-group input.custom-file-control::-webkit-input-placeholder {
     padding: 0.28125rem 0;
     line-height: 1.5; }
-  .bmd-form-group input.form-control::-moz-placeholder, .bmd-form-group input.custom-file-control::-moz-placeholder {
+  .bmd-form-group input.form-control, .bmd-form-group input.custom-file-control, .bmd-form-group input.form-control::-moz-placeholder, .bmd-form-group input.custom-file-control::-moz-placeholder {
     padding: 0.28125rem 0;
     line-height: 1.5; }
   .bmd-form-group input.form-control, .bmd-form-group input.custom-file-control,
@@ -11320,18 +11320,18 @@ fieldset[disabled][disabled] .has-danger .form-control, fieldset[disabled][disab
       background-size: 100% 100%, 100% 100%, 0.9375rem 0.9375rem; }
   .bmd-form-group.bmd-form-group-sm {
     padding-top: 1.40625rem; }
-    .bmd-form-group.bmd-form-group-sm input::-webkit-input-placeholder {
+    .bmd-form-group.bmd-form-group-sm .form-control, .bmd-form-group.bmd-form-group-sm .custom-file-control, .bmd-form-group.bmd-form-group-sm label, .bmd-form-group.bmd-form-group-sm input::-webkit-input-placeholder {
       line-height: 1; }
-    .bmd-form-group.bmd-form-group-sm input::-moz-placeholder {
+    .bmd-form-group.bmd-form-group-sm .form-control, .bmd-form-group.bmd-form-group-sm .custom-file-control, .bmd-form-group.bmd-form-group-sm label, .bmd-form-group.bmd-form-group-sm input::-moz-placeholder {
       line-height: 1; }
     .bmd-form-group.bmd-form-group-sm .form-control, .bmd-form-group.bmd-form-group-sm .custom-file-control,
     .bmd-form-group.bmd-form-group-sm label,
     .bmd-form-group.bmd-form-group-sm input::placeholder {
       line-height: 1; }
-    .bmd-form-group.bmd-form-group-sm input.form-control::-webkit-input-placeholder, .bmd-form-group.bmd-form-group-sm input.custom-file-control::-webkit-input-placeholder {
+    .bmd-form-group.bmd-form-group-sm input.form-control, .bmd-form-group.bmd-form-group-sm input.custom-file-control, .bmd-form-group.bmd-form-group-sm input.form-control::-webkit-input-placeholder, .bmd-form-group.bmd-form-group-sm input.custom-file-control::-webkit-input-placeholder {
       padding: 0.28125rem 0;
       line-height: 1.5; }
-    .bmd-form-group.bmd-form-group-sm input.form-control::-moz-placeholder, .bmd-form-group.bmd-form-group-sm input.custom-file-control::-moz-placeholder {
+    .bmd-form-group.bmd-form-group-sm input.form-control, .bmd-form-group.bmd-form-group-sm input.custom-file-control, .bmd-form-group.bmd-form-group-sm input.form-control::-moz-placeholder, .bmd-form-group.bmd-form-group-sm input.custom-file-control::-moz-placeholder {
       padding: 0.28125rem 0;
       line-height: 1.5; }
     .bmd-form-group.bmd-form-group-sm input.form-control, .bmd-form-group.bmd-form-group-sm input.custom-file-control,
@@ -11393,18 +11393,18 @@ fieldset[disabled][disabled] .has-danger .form-control, fieldset[disabled][disab
         background-size: 100% 100%, 100% 100%, 0.6875rem 0.6875rem; }
   .bmd-form-group.bmd-form-group-lg {
     padding-top: 1.9375rem; }
-    .bmd-form-group.bmd-form-group-lg input::-webkit-input-placeholder {
+    .bmd-form-group.bmd-form-group-lg .form-control, .bmd-form-group.bmd-form-group-lg .custom-file-control, .bmd-form-group.bmd-form-group-lg label, .bmd-form-group.bmd-form-group-lg input::-webkit-input-placeholder {
       line-height: 1; }
-    .bmd-form-group.bmd-form-group-lg input::-moz-placeholder {
+    .bmd-form-group.bmd-form-group-lg .form-control, .bmd-form-group.bmd-form-group-lg .custom-file-control, .bmd-form-group.bmd-form-group-lg label, .bmd-form-group.bmd-form-group-lg input::-moz-placeholder {
       line-height: 1; }
     .bmd-form-group.bmd-form-group-lg .form-control, .bmd-form-group.bmd-form-group-lg .custom-file-control,
     .bmd-form-group.bmd-form-group-lg label,
     .bmd-form-group.bmd-form-group-lg input::placeholder {
       line-height: 1; }
-    .bmd-form-group.bmd-form-group-lg input.form-control::-webkit-input-placeholder, .bmd-form-group.bmd-form-group-lg input.custom-file-control::-webkit-input-placeholder {
+    .bmd-form-group.bmd-form-group-lg input.form-control, .bmd-form-group.bmd-form-group-lg input.custom-file-control, .bmd-form-group.bmd-form-group-lg input.form-control::-webkit-input-placeholder, .bmd-form-group.bmd-form-group-lg input.custom-file-control::-webkit-input-placeholder {
       padding: 0.28125rem 0;
       line-height: 1.5; }
-    .bmd-form-group.bmd-form-group-lg input.form-control::-moz-placeholder, .bmd-form-group.bmd-form-group-lg input.custom-file-control::-moz-placeholder {
+    .bmd-form-group.bmd-form-group-lg input.form-control, .bmd-form-group.bmd-form-group-lg input.custom-file-control, .bmd-form-group.bmd-form-group-lg input.form-control::-moz-placeholder, .bmd-form-group.bmd-form-group-lg input.custom-file-control::-moz-placeholder {
       padding: 0.28125rem 0;
       line-height: 1.5; }
     .bmd-form-group.bmd-form-group-lg input.form-control, .bmd-form-group.bmd-form-group-lg input.custom-file-control,
@@ -11465,10 +11465,10 @@ fieldset[disabled][disabled] .has-danger .form-control, fieldset[disabled][disab
       .bmd-form-group.is-focused .bmd-form-group.bmd-form-group-lg .form-control-danger.custom-file-control {
         background-size: 100% 100%, 100% 100%, 1.1875rem 1.1875rem; }
 
-input::-webkit-input-placeholder {
+.form-control, .custom-file-control, label, input::-webkit-input-placeholder {
   line-height: 1; }
 
-input::-moz-placeholder {
+.form-control, .custom-file-control, label, input::-moz-placeholder {
   line-height: 1; }
 
 .form-control, .custom-file-control,
@@ -11476,11 +11476,11 @@ label,
 input::placeholder {
   line-height: 1; }
 
-input.form-control::-webkit-input-placeholder, input.custom-file-control::-webkit-input-placeholder {
+input.form-control, input.custom-file-control, input.form-control::-webkit-input-placeholder, input.custom-file-control::-webkit-input-placeholder {
   padding: 0.28125rem 0;
   line-height: 1.5; }
 
-input.form-control::-moz-placeholder, input.custom-file-control::-moz-placeholder {
+input.form-control, input.custom-file-control, input.form-control::-moz-placeholder, input.custom-file-control::-moz-placeholder {
   padding: 0.28125rem 0;
   line-height: 1.5; }
 
